@@ -1,15 +1,15 @@
-#create varibabes to store number
+# Create varibabes to store number
 num1 = 0 
 
 enter_num = int(input("Please Enter a Number (enetr -1 to exit):"))
 
-#create while loop
+# Create while loop
 while num1 != -1:
-    num1 += enter_num  #same as num1 = num1 + enter_num
+    num1 += enter_num  # Same as num1 = num1 + enter_num
 
     enter_num = int(input("Please Enter a Number(enter -1 to exit):"))
 
     if enter_num == -1:
       print(num1)
       break 
-#Use 'break' to break break out iof the loop 1
+# Use 'break' to break break out iof the loop 1
